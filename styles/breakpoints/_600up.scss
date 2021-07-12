@@ -1,0 +1,378 @@
+.c-container {
+  padding: 0 7vw;
+}
+
+.c-txt-xs {
+  font-size: 14px;
+}
+
+.c-txt-sm {
+  font-size: 15px;
+}
+
+.c-txt-md {
+  font-size: 20px;
+}
+
+.page-ttl-under {
+  top: 120px;
+  left: 60px;
+  font-size: 24px;
+}
+
+.page-lead-box {
+  margin: 0 -7vw;
+  font-size: 20px;
+  padding: 20% 8% 14% 30%;
+}
+
+//.mobile-menu
+.mobile-menu {
+  &__li {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+}
+
+//.p-header
+.p-header {
+  height: 75px;
+
+  & .mobile-button {
+    top: 30px;
+    right: 25px;
+  }
+
+  & .mobile-menu__btn {
+    top: 25px;
+    right: 15px;
+  }
+
+  & .logo__img {
+    margin: 20px 10px 0 30px;
+  }
+
+  & .logo {
+    width: 120px;
+  }
+}
+
+//.p-top
+.p-top {
+  margin-top: 80px;
+
+  & .swiper-container {
+    height: 46vh;
+
+    & .swiper-slide {
+      height: auto;
+    }
+  }
+}
+
+//p-news 
+.p-news {
+  padding-top: 8vw;
+  margin-bottom: 20%;
+
+  &__copy {
+    width: 25%;
+  }
+
+  &__link {
+    width: 95px;
+    height: 90px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+
+//.p-menu 
+.p-menu {
+  & .c-container {
+    padding: 0;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+
+  & .second {
+    margin-left: 0;
+  }
+
+  & .third {
+    & .p-menu__btn-title {
+      margin-bottom: 22px;
+    }
+  }
+}
+
+//.p-director
+.p-director {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block {
+    width: 48%;
+  }
+
+  &__block02 {
+    width: 48%;
+  }
+
+  &__link {
+    bottom: -30px;
+    width: 95px;
+    height: 90px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+
+//.p-access 
+.p-access {
+  margin-bottom: 15%;
+}
+
+//.p-information
+.p-information {
+  &__open {
+    &__table {
+      line-height: 2.5;
+
+      & th {
+        font-size: 12px;
+      }
+
+      & td {
+        & img {
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+  }
+
+  &__text {
+    font-size: 12px;
+  }
+}
+
+//.p-footer 
+.p-footer {
+  &__sec01 {
+    & p {
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+  }
+
+  &__sec02 {
+    & a {
+      font-size: 12px;
+    }
+  }
+}
+
+// * * * * * * * * * about-page * * * * * * 
+.c-about {
+  & .director {
+    &__img {
+      width: 60%;
+    }
+  }
+
+  & .clinic {
+    &-info-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      & li {
+        width: 48%;
+      }
+    }
+
+    &-info-text {
+      height: 150px;
+    }
+  }
+}
+
+// * * * * * * * * * expence-page * * * * * * 
+.expense {
+  padding-top: 50px;
+
+  & .page-lead-box {
+    margin: 0 -7vw;
+  }
+
+  & .intro-sec {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    & .intro-img {
+      width: 45%;
+      margin: 0;
+    }
+
+    & .intro-desc {
+      width: 48%;
+    }
+  }
+
+  & .expense-sub-ttl {
+    padding-left: 40px;
+  }
+
+  & .other-sec {
+    & .other-treatment-list {
+      display: flex;
+      justify-content: space-between;
+
+      & li {
+        width: 26%;
+        height: 180px;
+        padding: 30px 0;
+
+        & .c-txt-sm {
+          font-size: 12px;
+          line-height: 1.8;
+        }
+      }
+
+      & .treatment01 {
+        padding: 32px 0 0 0;
+      }
+
+      & .treatment02 {
+        padding: 49px 0 0 0;
+      }
+
+      & .treatment03 {
+        width: 46%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+
+        & .list-inner-left {
+          padding-top: 30px;
+          width: 50%;
+        }
+
+        & .list-inner-right {
+          padding-top: 5px;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+// * * * * * * * * * treatment-page * * * * * * 
+.treatment-contents {
+  .treatment {
+    &__list {
+      margin-top: 60px;
+    }
+
+    &__item {
+      & .img-side {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+
+    &-ttl {
+      font-size: 22px;
+    }
+  }
+}
+
+// * * * * * * * * * faq-page * * * * * * 
+.faq-contents {
+  & .c-container {
+    padding: 0 7vw;
+  }
+
+  & .faq {
+    &__title {
+      text-align: center;
+    }
+
+    & .c-txtarea01 {
+      & .c-txt-sm {
+        font-size: 16px;
+      }
+    }
+
+    & dt {
+      &::before {
+        font-size: 28px;
+      }
+
+      & span {
+        &::after {
+          width: 3vw;
+        }
+      }
+    }
+
+    & dd {
+      &::before {
+        font-size: 30px;
+      }
+    }
+  }
+
+  & .nw-topview {
+    margin: 0 -3vw;
+
+    &__inner {
+      margin: 0 -4vw;
+    }
+  }
+}
+
+// * * * * * * * * * recruit-page * * * * * * 
+.contents-recruit {
+  .c-table01 {
+    & tr {
+      & th {
+        vertical-align: top;
+        min-width: 200px;
+      }
+    }
+
+    & .u-view-sp {
+      display: none;
+    }
+  }
+}
+
+// * * * * * * * * * news-page * * * * * * 
+.c-news {
+  & .c-container {
+    padding: 0 10vw;
+  }
+
+  &__title {
+    & .c-head01 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+// * * * * * * * * * news-sl-page * * * * * * 
+.c-news-sl {
+  padding: 10vw;
+
+  &__contents {
+    padding: 10vw 0;
+  }
+}
