@@ -98,9 +98,10 @@
 .menu-open {
   &.mobile-menu {
     opacity: 0.9;
-    z-index: 9000;
+    z-index: 1000;
     transition: all 0.3s;
     transform: none;
+    height: 100vh;
   }
 
   &.header__logo {
@@ -133,9 +134,8 @@
 //モバイルメニュー 全面パターン
 .mobile-menu {
   position: fixed;
-  top: 55px;
+  top: 0;
   left: 0;
-  bottom: 0;
   z-index: -10;
   background-color: white;
   width: 100%;
@@ -146,7 +146,7 @@
   &__nav {
     display: block;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 120px;
   }
 
   &__ul {
@@ -167,7 +167,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 100;
+  z-index: 9000;
   overflow: hidden;
   height: 64px;
   width: 100%;
@@ -216,7 +216,6 @@
     position: fixed;
     top: 20px;
     right: 10px;
-    z-index: 200;
   }
 
   .mobile-menu__btn {

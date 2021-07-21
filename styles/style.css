@@ -2366,11 +2366,12 @@ a:active {
 
 .menu-open.mobile-menu {
   opacity: 0.9;
-  z-index: 9000;
+  z-index: 1000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-transform: none;
           transform: none;
+  height: 100vh;
 }
 
 .menu-open.header__logo {
@@ -2406,9 +2407,8 @@ a:active {
 
 .mobile-menu {
   position: fixed;
-  top: 55px;
+  top: 0;
   left: 0;
-  bottom: 0;
   z-index: -10;
   background-color: white;
   width: 100%;
@@ -2421,7 +2421,7 @@ a:active {
 .mobile-menu__nav {
   display: block;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .mobile-menu__ul {
@@ -2440,7 +2440,7 @@ a:active {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 100;
+  z-index: 9000;
   overflow: hidden;
   height: 64px;
   width: 100%;
@@ -2493,7 +2493,6 @@ a:active {
   position: fixed;
   top: 20px;
   right: 10px;
-  z-index: 200;
 }
 
 .mobile-container .mobile-menu__btn {
@@ -3225,6 +3224,9 @@ a:active {
   }
   .p-header .logo {
     width: 120px;
+  }
+  .p-header .sp-navbtn {
+    display: none;
   }
   .p-top {
     margin-top: 80px;
