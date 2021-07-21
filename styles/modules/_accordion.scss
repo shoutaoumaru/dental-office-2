@@ -1,9 +1,11 @@
 .ac-title.is-active {
   transition: all 3s;
 
-  &::after {
-    transform: rotate(-180deg);
-    transition: all .2s;
+  & span {
+    &::after {
+      transform: rotate(-180deg);
+      transition: all .2s;
+    }
   }
 }
 

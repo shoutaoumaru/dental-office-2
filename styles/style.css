@@ -2538,7 +2538,7 @@ a:active {
   transition: all 3s;
 }
 
-.ac-title.is-active::after {
+.ac-title.is-active span::after {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
   -webkit-transition: all .2s;
