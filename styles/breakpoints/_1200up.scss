@@ -1,7 +1,11 @@
+.page-lead-box {
+  padding: 10% 8%;
+}
+
 //.p-header
 .p-header {
   & .logo__img {
-    margin: 20px 10px 0 100px;
+    margin: 30px 10px 0 100px;
   }
 
   & .pc-nav {
@@ -11,6 +15,8 @@
 
 //.p-top
 .p-top {
+  margin-top: 40px;
+
   & .swiper-container {
     height: 84vh;
   }
@@ -54,21 +60,21 @@
     padding: 0 10vw;
   }
 
-
-
   & .faq {
-    margin: 20vw 0 15vw 0;
+    margin: 10vw 0;
+
+    &__title {
+      margin-bottom: 5vw;
+    }
 
     & .c-txtarea01 {
-      margin-bottom: 12vw;
+      margin-bottom: 10vw;
     }
 
     & dt {
       padding-bottom: 1.6vw;
 
       & span {
-        margin-left: 4vw;
-
         &::after {
           width: 2vw;
           right: 60px;
@@ -90,11 +96,19 @@
 
 // * * * * * * * * * news-page * * * * * * 
 .c-news {
-  padding: 150px 0 20px 0;
-  margin-top: 5vw;
+  padding: 130px 0 20px 0;
+  margin-top: 0;
 
   .page-numbers {
     margin-top: 3vw;
+  }
+
+  &__link {
+    padding: 2vw 4vw;
+  }
+
+  &__title {
+    margin-bottom: 5vw;
   }
 }
 

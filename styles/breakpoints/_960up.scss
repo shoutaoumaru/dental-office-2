@@ -10,6 +10,10 @@
   font-size: 22px;
 }
 
+.c-title {
+  font-size: 26px;
+}
+
 .page-ttl-under {
   top: 120px;
   left: 45px;
@@ -34,7 +38,7 @@
   }
 
   & .logo__img {
-    margin: 20px 10px 0 75px;
+    margin: 25px 10px 0 75px;
   }
 
   & .logo {
@@ -195,15 +199,6 @@
 
   &__sec01 {
     letter-spacing: 3px;
-  }
-
-  &__sec02 {
-    & a {
-      font-size: 16px;
-      width: 90px;
-      height: 90px;
-      line-height: 90px;
-    }
   }
 
   &__nav {
@@ -423,7 +418,15 @@
 // * * * * * * * * * faq-page * * * * * * 
 .faq-contents {
   .faq {
-    margin-top: 25vw;
+    .c-txtarea01 {
+      .c-txt-sm {
+        font-size: 20px;
+      }
+    }
+
+    .c-txt-md {
+      font-size: 22px;
+    }
   }
 }
 

@@ -174,12 +174,6 @@
       letter-spacing: 1px;
     }
   }
-
-  &__sec02 {
-    & a {
-      font-size: 12px;
-    }
-  }
 }
 
 // * * * * * * * * * about-page * * * * * * 
@@ -209,7 +203,6 @@
 
 // * * * * * * * * * expence-page * * * * * * 
 .expense {
-  padding-top: 50px;
 
   & .page-lead-box {
     margin: 0 -7vw;
@@ -305,11 +298,15 @@
   }
 
   & .faq {
+    margin: 15vw 0;
+
     &__title {
       text-align: center;
     }
 
     & .c-txtarea01 {
+      margin-bottom: 15vw;
+
       & .c-txt-sm {
         font-size: 16px;
       }
@@ -331,6 +328,10 @@
       &::before {
         font-size: 30px;
       }
+    }
+
+    & .c-txt-md {
+      font-size: 18px;
     }
   }
 

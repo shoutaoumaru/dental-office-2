@@ -1262,25 +1262,6 @@ a:active {
   margin-bottom: 12px;
 }
 
-.p-footer__sec02 {
-  width: 44%;
-  text-align: right;
-}
-
-.p-footer__sec02 a {
-  color: #e7dfdf;
-  font-family: 'Noto Serif Japanese', sans-serif;
-  font-weight: 500;
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  border: 1px solid #fff;
-  font-size: 10px;
-  color: #e7dfdf;
-  line-height: 70px;
-  text-align: center;
-}
-
 .p-footer__block02 {
   padding-bottom: 15px;
   background-color: #393939;
@@ -2354,7 +2335,7 @@ a:active {
     margin-right: 30px;
   }
   .pc-container .pc-nav-item {
-    font-size: .9rem;
+    font-size: 1rem;
     padding-top: 3vw;
     padding-right: 2.5vw;
   }
@@ -3384,9 +3365,6 @@ a:active {
     font-size: 14px;
     letter-spacing: 1px;
   }
-  .p-footer__sec02 a {
-    font-size: 12px;
-  }
   .c-about .director__img {
     width: 60%;
   }
@@ -3405,9 +3383,6 @@ a:active {
   }
   .c-about .clinic-info-text {
     height: 150px;
-  }
-  .expense {
-    padding-top: 50px;
   }
   .expense .page-lead-box {
     margin: 0 -7vw;
@@ -3488,8 +3463,14 @@ a:active {
   .faq-contents .c-container {
     padding: 0 7vw;
   }
+  .faq-contents .faq {
+    margin: 15vw 0;
+  }
   .faq-contents .faq__title {
     text-align: center;
+  }
+  .faq-contents .faq .c-txtarea01 {
+    margin-bottom: 15vw;
   }
   .faq-contents .faq .c-txtarea01 .c-txt-sm {
     font-size: 16px;
@@ -3502,6 +3483,9 @@ a:active {
   }
   .faq-contents .faq dd::before {
     font-size: 30px;
+  }
+  .faq-contents .faq .c-txt-md {
+    font-size: 18px;
   }
   .faq-contents .nw-topview {
     margin: 0 -3vw;
@@ -3540,6 +3524,9 @@ a:active {
   .c-txt-md {
     font-size: 22px;
   }
+  .c-title {
+    font-size: 26px;
+  }
   .page-ttl-under {
     top: 120px;
     left: 45px;
@@ -3559,7 +3546,7 @@ a:active {
     display: none;
   }
   .p-header .logo__img {
-    margin: 20px 10px 0 75px;
+    margin: 25px 10px 0 75px;
   }
   .p-header .logo {
     width: 120px;
@@ -3674,12 +3661,6 @@ a:active {
   }
   .p-footer__sec01 {
     letter-spacing: 3px;
-  }
-  .p-footer__sec02 a {
-    font-size: 16px;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
   }
   .p-footer__nav {
     display: -webkit-box;
@@ -3862,8 +3843,11 @@ a:active {
     line-height: 2;
     font-size: 1rem;
   }
-  .faq-contents .faq {
-    margin-top: 25vw;
+  .faq-contents .faq .c-txtarea01 .c-txt-sm {
+    font-size: 20px;
+  }
+  .faq-contents .faq .c-txt-md {
+    font-size: 22px;
   }
   .c-news {
     margin-top: 15vw;
@@ -3899,11 +3883,17 @@ a:active {
 }
 
 @media (min-width: 1200px) {
+  .page-lead-box {
+    padding: 10% 8%;
+  }
   .p-header .logo__img {
-    margin: 20px 10px 0 100px;
+    margin: 30px 10px 0 100px;
   }
   .p-header .pc-nav {
     margin: 8px 30px 0 0;
+  }
+  .p-top {
+    margin-top: 40px;
   }
   .p-top .swiper-container {
     height: 84vh;
@@ -3924,16 +3914,16 @@ a:active {
     padding: 0 10vw;
   }
   .faq-contents .faq {
-    margin: 20vw 0 15vw 0;
+    margin: 10vw 0;
+  }
+  .faq-contents .faq__title {
+    margin-bottom: 5vw;
   }
   .faq-contents .faq .c-txtarea01 {
-    margin-bottom: 12vw;
+    margin-bottom: 10vw;
   }
   .faq-contents .faq dt {
     padding-bottom: 1.6vw;
-  }
-  .faq-contents .faq dt span {
-    margin-left: 4vw;
   }
   .faq-contents .faq dt span::after {
     width: 2vw;
@@ -3946,11 +3936,17 @@ a:active {
     font-size: 34px;
   }
   .c-news {
-    padding: 150px 0 20px 0;
-    margin-top: 5vw;
+    padding: 130px 0 20px 0;
+    margin-top: 0;
   }
   .c-news .page-numbers {
     margin-top: 3vw;
+  }
+  .c-news__link {
+    padding: 2vw 4vw;
+  }
+  .c-news__title {
+    margin-bottom: 5vw;
   }
   .c-news-sl {
     padding: 0 10vw 0 10vw;

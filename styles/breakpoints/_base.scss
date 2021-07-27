@@ -627,25 +627,6 @@ a:active {
     }
   }
 
-  &__sec02 {
-    width: 44%;
-    text-align: right;
-
-    & a {
-      color: rgb(231, 223, 223);
-      font-family: 'Noto Serif Japanese', sans-serif;
-      font-weight: 500;
-      display: inline-block;
-      width: 70px;
-      height: 70px;
-      border: 1px solid #fff;
-      font-size: 10px;
-      color: rgb(231, 223, 223);
-      line-height: 70px;
-      text-align: center;
-    }
-  }
-
   &__block02 {
     padding-bottom: 15px;
     background-color: #393939;
@@ -666,7 +647,6 @@ a:active {
       margin-bottom: 15px;
     }
   }
-
 
   .copyright {
     color: rgb(231, 223, 223);
