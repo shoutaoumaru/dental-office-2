@@ -1,3 +1,8 @@
+<?php
+ /* Template Name: expense
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,13 +10,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>自費治療について | 歯科テンプレート2</title>
-  <link rel="stylesheet" href="/styles/vendors/animsition.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Overpass:wght@100;300&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css" />
-  <link rel="stylesheet" href="../styles/style.css" />
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -19,7 +18,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -34,29 +33,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a href="/">
+          <a href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/"><span>ホーム</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>ホーム</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/about/about.html"><span>当院について</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/about')); ?>"><span>当院について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/treatment/treatment.html"><span>診療について</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/treatment')); ?>"><span>診療について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/faq/faq.html"><span>よくあるご質問</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>よくあるご質問</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>お知らせ</span></a>
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>お知らせ</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/recruit/recruit.html"><span>採用情報</span></a>
+              <a class="pc-nav-link animsition-link" href="/recruit"><span>採用情報</span></a>
             </li>
           </ul>
         </nav>
@@ -90,7 +89,7 @@
             <!-- info-sec -->
             <div class="intro-sec  appear up">
               <div class="intro-img item">
-                <img src="/images/home/whitenig__2.jpg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/home/whitenig__2.jpg" alt="" />
               </div>
               <div class="intro-desc item">
                 <p class="c-txt-sm">
@@ -129,7 +128,7 @@
               </div>
               <div class="privateroom-sec-inner item">
                 <div class="privateroom-img">
-                  <img src="/images/home/room.jpg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/home/room.jpg" alt="" />
                 </div>
                 <div class="privateroom-desc">
                   <section>
@@ -245,32 +244,32 @@
                     <!-- 01 -->
                     <tr>
                       <th>9:00-12:00</th>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
                       <td><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-slash.svg" alt=""
                           class="opening-tbl-slash"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
                       <td><img src="https://www.haru-shika.jp/wp/wp-content/themes/haru/images/hour-slash.svg" alt=""
                           class="opening-tbl-slash"></td>
                     </tr>
                     <!-- 02 -->
                     <tr>
                       <th>15:00-19:00</th>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-slash.svg" alt="" class="opening-tbl-slash"></td>
-                      <td><img src="/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
-                      <td><img src="/images/hour-slash.svg" alt="" class="opening-tbl-triangle"></td>
-                      <td><img src="/images/hour-slash.svg" alt="" class="opening-tbl-slash"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-slash.svg" alt="" class="opening-tbl-slash"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-circle.svg" alt="" class="opening-tbl-circle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-slash.svg" alt="" class="opening-tbl-triangle"></td>
+                      <td><img src="<?php echo get_template_directory_uri(); ?>/images/hour-slash.svg" alt="" class="opening-tbl-slash"></td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <div class="p-information__text">
-                <p><img src="/images/hour-triangle.svg" alt=""><span>15:00～18:00</span></p>
+                <p><img src="<?php echo get_template_directory_uri(); ?>/images/hour-triangle.svg" alt=""><span>15:00～18:00</span></p>
                 <p>休診日　木曜・日曜・祝日</p>
                 <p>祝日がある週の木曜日は診療いたします。</p>
               </div>
@@ -291,13 +290,12 @@
         </div>
         <div class="p-footer__block02">
           <ul class="p-footer__nav">
-            <li class="gnav01"><a class="animsition-link c-txt-sm" href="/">ホーム</a></li>
-            <li class="gnav02"><a class="animsition-link c-txt-sm" href="/about/about.html">当院について</a></li>
-            <li class="gnav02"><a class="animsition-link c-txt-sm" href="/treatment/treatment.html">診療について</a></li>
-            <li class="gnav04"><a class="animsition-link c-txt-sm" href="/news/news.html">お知らせ</a></li>
-            <li class="gnav06"><a class="animsition-link c-txt-sm" href="/faq/faq.html">よくあるご質問</a></li>
-            <li class="gnav06"><a class="animsition-link c-txt-sm" href="/news/news.html">お知らせ</a></li>
-            <li class="gnav06"><a class="animsition-link c-txt-sm" href="/recruit/recruit.html">採用情報</a></li>
+            <li class="gnav01"><a class="animsition-link c-txt-sm" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a></li>
+            <li class="gnav02"><a class="animsition-link c-txt-sm" href=" <?php echo esc_url( home_url('/about')); ?>">当院について</a></li>
+            <li class="gnav02"><a class="animsition-link c-txt-sm" href=" <?php echo esc_url( home_url('/treatment')); ?>">診療について</a></li>
+            <li class="gnav04"><a class="animsition-link c-txt-sm" href=" <?php echo esc_url( home_url('/news')); ?>">お知らせ</a></li>
+            <li class="gnav06"><a class="animsition-link c-txt-sm" href=" <?php echo esc_url( home_url('/faq')); ?>">よくあるご質問</a></li>
+            <li class="gnav06"><a class="animsition-link c-txt-sm" href=" <?php echo esc_url( home_url('/expense')); ?>">採用情報</a></li>
           </ul>
           <small class="copyright">© RivRound.inc</small>
         </div>
@@ -307,12 +305,12 @@
     <div class="mobile-menu">
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
-          <li class="mobile-menu__item"><a class="animsition-link" href="/">ホーム</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/about/about.html">当医院について</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/treatment/treatment.html">診療について</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/news/news.html">お知らせ</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/faq/faq.html">よくあるご質問</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="recruit/recruit.html">採用情報</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">ホーム</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/about')); ?>">当医院について</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/treatment')); ?>">診療について</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/news')); ?>">お知らせ</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/faq')); ?>">よくあるご質問</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/expense')); ?>">採用情報</a></li>
         </ul>
         <div class="reserve-btn-wrap">
           <div class="reserve-btn-tel">
@@ -334,13 +332,7 @@
   </div>
   <!-- /#main-wrapper -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="../scripts/vendor/animsition.min.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="../scripts/libs/scroll.js"></script>
-  <script src="../scripts/libs/text-animation.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
-  <script src="../scripts/c-main.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

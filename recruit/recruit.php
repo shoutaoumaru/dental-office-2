@@ -1,3 +1,7 @@
+<?php
+ /* Template Name: recruit
+ */
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,10 +9,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>歯科テンプレート2 | 採用情報</title>
-  <link rel="stylesheet" href="../styles/vendors/bootstrap-reboot.css">
-  <link rel="stylesheet" href="/styles/vendors/animsition.min.css">
-  <link rel="stylesheet" href="../styles/vendors/swiper.min.css" />
-  <link rel="stylesheet" href="../styles/style.css" />
+  <?php get_header(); ?>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
     <header id="header" class="p-header">
       <div class="mobile-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo"></div>
           </a>
         </div>
@@ -31,29 +32,29 @@
       <!-- /.mobile-container -->
       <div class="pc-container">
         <div class=" logo__img">
-          <a class="animsition-link" href="/">
+          <a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">
             <div class="logo-pc logo"></div>
           </a>
         </div>
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link" href="/"><span>ホーム</span></a>
+              <a class="pc-nav-link" href=" <?php echo esc_url( home_url('/')); ?>"><span>ホーム</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link" href="/about/about.html"><span>当院について</span></a>
+              <a class="pc-nav-link" href=" <?php echo esc_url( home_url('/about')); ?>"><span>当院について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link" href="/treatment/treatment.html"><span>診療について</span></a>
+              <a class="pc-nav-link" href=" <?php echo esc_url( home_url('/treatment')); ?>"><span>診療について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link" href="/expense/expense.html"><span>自費治療について</span></a>
+              <a class="pc-nav-link" href=" <?php echo esc_url( home_url('/expense')); ?>"><span>自費治療について</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link reserve-btn" href="/faq/faq.html"><span>よくあるご質問</span></a>
+              <a class="pc-nav-link reserve-btn" href=" <?php echo esc_url( home_url('/faq')); ?>"><span>よくあるご質問</span></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link reserve-btn" href="/news/news.html"><span>お知らせ</span></a>
+              <a class="pc-nav-link reserve-btn" href=" <?php echo esc_url( home_url('/news')); ?>"><span>お知らせ</span></a>
             </li>
           </ul>
         </nav>
@@ -244,12 +245,12 @@
         </div>
         <div class="p-footer__block02">
           <ul class="p-footer__nav">
-            <li class="gnav01"><a class="c-txt-sm" href="/">ホーム</a></li>
-            <li class="gnav01"><a class="c-txt-sm" href="/about/about.html">当院について</a></li>
-            <li class="gnav02"><a class="c-txt-sm" href="/treatment/treatment.html">診療について</a></li>
-            <li class="gnav03"><a class="c-txt-sm" href="/expense/expense.html">自費治療について</a></li>
-            <li class="gnav04"><a class="c-txt-sm" href="/news/news.html">お知らせ</a></li>
-            <li class="gnav04"><a class="c-txt-sm" href="/faq/faq.html">よくあるご質問
+            <li class="gnav01"><a class="c-txt-sm" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a></li>
+            <li class="gnav01"><a class="c-txt-sm" href=" <?php echo esc_url( home_url('/about')); ?>">当院について</a></li>
+            <li class="gnav02"><a class="c-txt-sm" href=" <?php echo esc_url( home_url('/treatment')); ?>">診療について</a></li>
+            <li class="gnav03"><a class="c-txt-sm" href=" <?php echo esc_url( home_url('/expense')); ?>">自費治療について</a></li>
+            <li class="gnav04"><a class="c-txt-sm" href=" <?php echo esc_url( home_url('/nwes')); ?>">お知らせ</a></li>
+            <li class="gnav04"><a class="c-txt-sm" href=" <?php echo esc_url( home_url('/faq')); ?>">よくあるご質問
               </a></li>
           </ul>
           <small class="copyright">© RivRound.inc</small>
@@ -260,12 +261,12 @@
     <div class="mobile-menu">
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
-          <li class="mobile-menu__item"><a class="animsition-link" href="/">ホーム</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="about/about.html">当医院について</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="treatment/treatment.html">診療について</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="expense/expense.html">自費治療について</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/news/news.html">お知らせ</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/faq/faq.html">よくあるご質問</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href=" <?php echo esc_url( home_url('/')); ?>">ホーム</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/about')); ?>">当医院について</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/treatment')); ?>">診療について</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/expense')); ?>">自費治療について</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/nwes')); ?>">お知らせ</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/faq')); ?>">よくあるご質問</a></li>
         </ul>
         <div class="reserve-btn-wrap">
           <div class="reserve-btn-tel">
@@ -286,13 +287,7 @@
     <!-- /.mobile-menu -->
   </div>
   <!-- /.main-contents -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="../scripts/vendor/animsition.min.js"></script>
-  <script src="../scripts/libs/scroll-btn.js"></script>
-  <script src="/scripts/libs/page.js"></script>
-  <script src="../scripts/libs/scroll.js"></script>
-  <script src="../scripts/libs/mobile-menu.js"></script>
-  <script src="../scripts/c-main.js"></script>
+  <?php get_template_part('includes/c-footer'); ?>      
 </body>
 
 </html>

@@ -693,7 +693,7 @@ a:active {
 .icon-tel::before {
   content: '';
   display: block;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -708,7 +708,7 @@ a:active {
 .icon-map::before {
   content: '';
   display: block;
-  background-image: url(/images/common/icon-map.png);
+  background-image: url(../images/common/icon-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -723,7 +723,7 @@ a:active {
 .icon-net::before {
   content: '';
   display: block;
-  background-image: url(/images/common/icon-calendar.png);
+  background-image: url(../images/common/icon-calendar.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -744,7 +744,7 @@ a:active {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(/images/common/icon-insta-gr.png);
+  background-image: url(../images/common/icon-insta-gr.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -776,7 +776,7 @@ a:active {
   left: 0;
   width: 60px;
   height: 60px;
-  background: url(/images/icon-access.svg) 15px 14px no-repeat;
+  background: url(../images/icon-access.svg) 15px 14px no-repeat;
   background-size: 30px 35px;
   background-color: #333333;
 }
@@ -923,7 +923,7 @@ a:active {
   left: 8px;
   width: 22px;
   height: 4px;
-  background: url(/images/arrow01_sp.svg) 0 0 no-repeat;
+  background: url(../images/arrow01_sp.svg) 0 0 no-repeat;
   background-size: 22px 4px;
 }
 
@@ -974,7 +974,7 @@ a:active {
   right: 25px;
   width: 35px;
   height: 6.5px;
-  background: url(/images/arrow02_sp.svg) 0 0 no-repeat;
+  background: url(../images/arrow02_sp.svg) 0 0 no-repeat;
   background-size: 35px 6.4px;
   z-index: 1000;
 }
@@ -1096,7 +1096,7 @@ a:active {
   left: 8px;
   width: 22px;
   height: 4px;
-  background: url(/images/arrow01_sp.svg) 0 0 no-repeat;
+  background: url(../images/arrow01_sp.svg) 0 0 no-repeat;
   background-size: 22px 4px;
 }
 
@@ -1146,7 +1146,7 @@ a:active {
   display: inline-block;
   height: 18px;
   width: 18px;
-  background-image: url(/images/common/icon-map.png);
+  background-image: url(../images/common/icon-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1543,7 +1543,7 @@ a:active {
   width: 22px;
   height: 4px;
   margin-top: -3px;
-  background: url(/images/arrow01_sp.svg) 0 0 no-repeat;
+  background: url(../images/arrow01_sp.svg) 0 0 no-repeat;
   background-size: 22px 4px;
 }
 
@@ -1586,7 +1586,7 @@ a:active {
   width: 20px;
   height: 20px;
   margin-left: -10px;
-  background: url(/images/icon-recommend.svg) 0 0 no-repeat;
+  background: url(../images/icon-recommend.svg) 0 0 no-repeat;
   background-size: 20px 20px;
 }
 
@@ -1610,7 +1610,7 @@ a:active {
   left: 0;
   width: 15px;
   height: 12px;
-  background: url(/images/icon-check.svg) 0 0 no-repeat;
+  background: url(../images/icon-check.svg) 0 0 no-repeat;
   background-size: 15px 12px;
   font-size: 13px;
   line-height: 1.6;
@@ -1880,7 +1880,7 @@ a:active {
   right: 0;
   width: 4vw;
   height: 2.7vw;
-  background-image: url(/images/common/icon_arrow_large--bottom.svg);
+  background-image: url(../images/common/icon_arrow_large--bottom.svg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -1986,7 +1986,7 @@ a:active {
   content: "";
   position: absolute;
   right: 0;
-  background-image: url(/images/common/arrow.png);
+  background-image: url(../images/common/arrow.png);
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -2248,7 +2248,7 @@ a:active {
 }
 
 .p-header .logo {
-  background-image: url(/images/common/riv_logo_official2.png);
+  background-image: url(../images/common/riv_logo_official2.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2257,7 +2257,7 @@ a:active {
 }
 
 .p-header .logo.inview {
-  background-image: url(/images/common/riv_logo_official-wh2.png);
+  background-image: url(../images/common/riv_logo_official-wh2.png);
 }
 
 .p-header .mobile-button {
@@ -2446,7 +2446,7 @@ a:active {
   right: 5px;
   height: 12px;
   width: 12px;
-  background-image: url(/images/common/icon-link-1-black.png);
+  background-image: url(../images/common/icon-link-1-black.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2463,7 +2463,7 @@ a:active {
   right: 10px;
   height: 12px;
   width: 12px;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2509,7 +2509,7 @@ a:active {
   right: 20%;
   height: 20px;
   width: 20px;
-  background-image: url(/images/tel-gray.png);
+  background-image: url(../images/tel-gray.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2520,7 +2520,7 @@ a:active {
 .mobile-container .mobile-ico.inview {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-image: url(/images/tel-white.png);
+  background-image: url(../images/tel-white.png);
 }
 
 .mobile-container .mobile-ico a {
@@ -2532,7 +2532,7 @@ a:active {
 .mobile-container .mobile-logo {
   height: 43px;
   width: 138px;
-  background-image: url(/images/riv_logo-gray.png);
+  background-image: url(../images/riv_logo-gray.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2543,7 +2543,7 @@ a:active {
 .mobile-container .mobile-logo.inview {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-image: url(/images/riv_logo-white.png);
+  background-image: url(../images/riv_logo-white.png);
 }
 
 .mobile-container .mobile-button {
