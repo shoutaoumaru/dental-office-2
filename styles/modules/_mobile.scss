@@ -27,7 +27,7 @@
     z-index: 3000;
   }
 
-  @media (max-width:960px) {
+  @media (max-width: 960px) {
     .pc-container {
       display: none;
     }
@@ -38,11 +38,11 @@
     bottom: 0;
     left: 0;
     background-color: #fff;
-    opacity: .7;
+    opacity: 0.7;
     height: 6vh;
     width: 100%;
     z-index: 100;
-    transition: all .3s;
+    transition: all 0.3s;
 
     &__container {
       display: flex;
@@ -72,7 +72,7 @@
   }
 }
 
-@media (min-width:960px) {
+@media (min-width: 960px) {
   .pc-container {
     display: flex;
     justify-content: space-between;
@@ -106,7 +106,7 @@
   }
 
   .mobile-menu__btn {
-    &>span {
+    & > span {
       background-color: white;
 
       &:nth-child(1) {
@@ -184,7 +184,7 @@
         letter-spacing: 2px;
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           position: absolute;
           top: 12px;
@@ -203,7 +203,7 @@
         letter-spacing: 4px;
 
         &::after {
-          content: '';
+          content: "";
           display: inline-block;
           position: absolute;
           top: 13px;
@@ -218,9 +218,8 @@
     }
   }
 
-  @media (min-width:600px) {
+  @media (min-width: 600px) {
     .reserve-btn-wrap {
-
       h4 {
         font-size: 18px;
       }
@@ -243,7 +242,7 @@
     }
 
     &__list {
-      font-size: 1.2rem
+      font-size: 1.2rem;
     }
 
     &__item {
@@ -301,7 +300,6 @@
     }
   }
 
-
   .mobile-button {
     position: fixed;
     top: 20px;
@@ -316,12 +314,12 @@
     display: block;
 
     &.inview {
-      &>span {
+      & > span {
         background-color: #fff;
       }
     }
 
-    &>span {
+    & > span {
       background-color: $cBlack;
       width: 23px;
       height: 1px;
@@ -338,7 +336,7 @@
       }
     }
 
-    @media (min-width:600px) {
+    @media (min-width: 600px) {
       & span {
         width: 35px;
         margin-bottom: 9px;

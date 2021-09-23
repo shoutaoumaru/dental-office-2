@@ -1,5 +1,8 @@
 body {
-  font-family: 'Overpass', 'Noto Serif JP', serif;
+  font-family: "Overpass", "Noto Serif JP", serif;
+  &.hidden {
+    overflow: hidden;
+  }
 }
 
 a,
@@ -59,7 +62,7 @@ a:active {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: block;
     background-image: url(../images/common/icon-tel.png);
     background-position: center;
@@ -68,14 +71,13 @@ a:active {
     height: 17px;
     width: 17px;
   }
-
 }
 
 .icon-map {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: block;
     background-image: url(../images/common/icon-map.png);
     background-position: center;
@@ -84,14 +86,13 @@ a:active {
     height: 17px;
     width: 17px;
   }
-
 }
 
 .icon-net {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     display: block;
     background-image: url(../images/common/icon-calendar.png);
     background-position: center;
@@ -100,7 +101,6 @@ a:active {
     height: 17px;
     width: 17px;
   }
-
 }
 
 .icon-insta {
@@ -111,7 +111,7 @@ a:active {
   padding-bottom: 5px;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -140,7 +140,7 @@ a:active {
   }
 
   &::after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -167,7 +167,9 @@ a:active {
   margin-bottom: 60px;
   text-align: center;
 }
-
+.c-top-view {
+  height: 25vh;
+}
 // TOP
 .p-top {
   position: relative;
@@ -200,12 +202,14 @@ a:active {
       left: -75%;
       z-index: 2;
       display: block;
-      content: '';
+      content: "";
       width: 50%;
       height: 100%;
-      background: linear-gradient(to right,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(255, 255, 255, 0.3) 100%);
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.3) 100%
+      );
       transform: skewX(-25deg);
       animation-name: shine;
       animation-duration: 6s;
@@ -224,7 +228,7 @@ a:active {
     }
 
     &::before {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 4px;
@@ -235,7 +239,7 @@ a:active {
     }
 
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 0;
@@ -283,7 +287,7 @@ a:active {
     text-align: left;
 
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 12px;
@@ -325,7 +329,7 @@ a:active {
     color: #fff;
 
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 25px;
@@ -402,7 +406,7 @@ a:active {
     }
 
     &::before {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 4px;
@@ -413,7 +417,7 @@ a:active {
     }
 
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 0;
@@ -447,7 +451,7 @@ a:active {
     text-align: left;
 
     &::after {
-      content: '';
+      content: "";
       display: inline-block;
       position: absolute;
       bottom: 12px;
@@ -503,7 +507,7 @@ a:active {
       position: absolute;
       top: 5px;
       left: 0;
-      content: '';
+      content: "";
       display: inline-block;
       height: 18px;
       width: 18px;
@@ -584,7 +588,7 @@ a:active {
         font-size: 10px;
         text-align: center;
 
-        &>img {
+        & > img {
           width: 8px;
           height: 8px;
           vertical-align: middle;
@@ -599,12 +603,12 @@ a:active {
     font-size: 10px;
 
     & p {
-      &>img {
+      & > img {
         height: 8px;
         width: 8px;
       }
 
-      &>span {
+      & > span {
         display: inline-block;
         padding-left: 5px;
       }
@@ -695,9 +699,8 @@ a:active {
   }
 }
 
-//* * * * * * * * * about-page * * * * * * * * * 
+//* * * * * * * * * about-page * * * * * * * * *
 .c-about {
-
   .director {
     margin: 60px 0 40px;
     padding-top: 60px;
@@ -780,7 +783,7 @@ a:active {
   }
 }
 
-//* * * * * * * * * treatment-page * * * * * * * * 
+//* * * * * * * * * treatment-page * * * * * * * *
 .treatment {
   margin-top: 60px;
   line-height: 1.8;
@@ -841,7 +844,7 @@ a:active {
   }
 }
 
-//* * * * * * * * * expense-page * * * * * * * * 
+//* * * * * * * * * expense-page * * * * * * * *
 .expense {
   margin-top: 60px;
   line-height: 1.8;
@@ -859,7 +862,7 @@ a:active {
     padding-left: 20px;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: 16px;
       left: 0;
@@ -889,7 +892,7 @@ a:active {
       padding-right: 35px;
 
       &::after {
-        content: '';
+        content: "";
         display: inline-block;
         position: absolute;
         top: 50%;
@@ -929,7 +932,7 @@ a:active {
       font-size: 16px;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 50%;
@@ -953,7 +956,7 @@ a:active {
       padding-left: 26px;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 7px;
         left: 0;
@@ -976,7 +979,6 @@ a:active {
     }
 
     .privateroom-desc {
-
       & section {
         &:first-child {
           margin-bottom: 25px;
@@ -998,7 +1000,6 @@ a:active {
     padding-bottom: 80px;
 
     .effect-list {
-
       & li {
         position: relative;
         margin-bottom: 25px;
@@ -1007,7 +1008,7 @@ a:active {
         background-color: #fff;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           top: 0;
           left: 0;
@@ -1031,7 +1032,6 @@ a:active {
     margin-bottom: 60px;
 
     .other-treatment-list {
-
       img {
         margin-bottom: 20px;
       }
@@ -1103,9 +1103,9 @@ a:active {
   }
 }
 
-//* * * * * * * rectuit-page * * * * * * * * * 
+//* * * * * * * rectuit-page * * * * * * * * *
 .contents-recruit {
-  padding: 150px 0 50px 0;
+  padding: 50px 0 50px 0;
 
   .c-table01 {
     & tr {
@@ -1120,7 +1120,7 @@ a:active {
 
     & td {
       line-height: 1.5;
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 
@@ -1132,7 +1132,7 @@ a:active {
     }
   }
 
-  @media (max-width:599px) {
+  @media (max-width: 599px) {
     th {
       color: $cBlack;
       font-size: 14px;
@@ -1167,7 +1167,7 @@ a:active {
 
         &.is-detail {
           &::before {
-            background-image: url(../images/recruit/ico_detail01.png);
+            background-image: url(..../images/recruit/ico_detail01.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -1176,7 +1176,7 @@ a:active {
 
         &.is-info {
           &::before {
-            background-image: url(../images/recruit/ico_info01.png);
+            background-image: url(..../images/recruit/ico_info01.png);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
@@ -1196,7 +1196,6 @@ a:active {
     & tr {
       &:last-child {
         border-bottom: 1px solid #e3e2dc;
-
       }
     }
   }
@@ -1204,7 +1203,6 @@ a:active {
 
 // * * * * * * * faq-page * * * * * * ** * * *
 .faq-contents {
-
   .faq {
     margin: 35vw 0 30vw 0;
 
@@ -1234,14 +1232,13 @@ a:active {
       padding: 2.6vw 0 6.6vw 0;
 
       &::before {
-        content: 'Q';
+        content: "Q";
         position: absolute;
         top: 4vw;
         left: 0;
         width: 12px;
         font-size: 20px;
         color: #295282;
-
       }
 
       & span {
@@ -1254,7 +1251,7 @@ a:active {
         padding-left: 3vw;
 
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           top: 0;
           bottom: 0;
@@ -1266,26 +1263,22 @@ a:active {
           background-position: top center;
           background-repeat: no-repeat;
           background-size: 100%;
-          transition: all .2s;
-
+          transition: all 0.2s;
         }
       }
-
     }
 
     & dd {
-
       position: relative;
 
       &::before {
-        content: 'A';
+        content: "A";
         position: absolute;
         top: 1vw;
         left: 0;
         width: 12px;
         font-size: 22px;
         color: #295282;
-
       }
 
       & .m-description-article {
@@ -1297,13 +1290,12 @@ a:active {
         padding-left: 3vw;
       }
     }
-
   }
 }
 
-//* * * * * * news-page * * * * * * * 
+//* * * * * * news-page * * * * * * *
 .c-news {
-  padding: 150px 0 10vw 0;
+  padding: 50px 0 10vw 0;
   letter-spacing: 3px;
 
   &__item {
@@ -1319,9 +1311,8 @@ a:active {
 
     & p {
       margin-top: 2vw;
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
-
   }
 
   &__date {
@@ -1355,7 +1346,7 @@ a:active {
       width: 40px;
       height: 40px;
       border-radius: 100%;
-      border: 1px solid #C4CCD1;
+      border: 1px solid #c4ccd1;
       background: #fff;
       margin: 0 1.3vw;
     }
@@ -1379,16 +1370,15 @@ a:active {
         height: 12px;
         margin-left: 8px;
       }
-
     }
 
-    @media (max-width:767px) {
+    @media (max-width: 767px) {
       & .next {
         display: none;
       }
     }
 
-    @media (min-width:600px) {
+    @media (min-width: 600px) {
       & .page-numbers:not(.next):not(.prev) {
         width: 45px;
         height: 45px;
@@ -1399,7 +1389,7 @@ a:active {
       }
     }
 
-    @media (min-width:900px) {
+    @media (min-width: 900px) {
       & .page-numbers:not(.next):not(.prev) {
         width: 55px;
         height: 55px;
@@ -1419,7 +1409,7 @@ a:active {
 
   &__contents {
     line-height: 2;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   &__title {
@@ -1434,35 +1424,31 @@ a:active {
   }
 }
 
-//* * * * * * news-single-page * * * * 
+//* * * * * * news-single-page * * * *
 .c-news-sl {
-  padding: 30vw 0 20vw 0;
+  padding: 0 0 20vw 0;
 
   & .c-container {
-    padding: 5vw 5vw 0 5vw;
+    padding: 8vw 5vw 0 5vw;
   }
 
   &__date {
     color: rgb(173, 173, 173);
   }
 
-  &__list {
-    padding: 15vw 0 0 0;
-  }
-
   &__contents {
-    padding: 20vw 0 10vw 0;
+    padding: 10vw 0 10vw 0;
     line-height: 2.5;
 
     & p {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 
   &__link {
     margin: 0 0 10vw 0;
     text-align: right;
-    font-size: .8rem;
+    font-size: 0.8rem;
 
     & a {
       border-bottom: 1px solid rgb(114, 114, 114);
@@ -1481,16 +1467,15 @@ a:active {
   overflow: hidden;
   color: $cBlack;
   font-size: 14px;
-  font-family: 'Josefin Sans',
-    sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
   writing-mode: vertical-lr;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1500,7 +1485,7 @@ a:active {
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1526,7 +1511,7 @@ a:active {
   }
 }
 
-@media (max-width:959px) {
+@media (max-width: 959px) {
   .scrolldown {
     display: none;
   }
